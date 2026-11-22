@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">نُقطة — حوّل فكرتك إلى واقع رقمي</title>
+  <desc id="desc">غلاف تعريفي لاستوديو نُقطة الرقمي.</desc>
+
+  <defs>
+    <linearGradient id="ogBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07070d"/>
+      <stop offset="0.55" stop-color="#0c0a19"/>
+      <stop offset="1" stop-color="#12102a"/>
+    </linearGradient>
+    <radialGradient id="ogGlowPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6c4cff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#6c4cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ogGlowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ogGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.55" stop-color="#8b70ff"/>
+      <stop offset="1" stop-color="#5b9bff"/>
+    </linearGradient>
+    <linearGradient id="ogCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171528"/>
+      <stop offset="1" stop-color="#0d0c18"/>
+    </linearGradient>
+    <linearGradient id="ogAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b70ff"/>
+      <stop offset="1" stop-color="#2f6bff"/>
+    </linearGradient>
+    <filter id="ogBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="ogShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <circle cx="1050" cy="80" r="330" fill="url(#ogGlowPurple)" filter="url(#ogBlur)"/>
+  <circle cx="100" cy="610" r="280" fill="url(#ogGlowBlue)" filter="url(#ogBlur)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/>
+    <path d="M150 0v630M300 0v630M450 0v630M600 0v630M750 0v630M900 0v630M1050 0v630"/>
+  </g>
+
+  <!-- نموذج بصري -->
+  <g transform="translate(72 124)" filter="url(#ogShadow)">
+    <rect width="432" height="382" rx="24" fill="url(#ogCard)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <path d="M0 24A24 24 0 0 1 24 0h384a24 24 0 0 1 24 24v18H0Z" fill="#1a182b"/>
+    <circle cx="24" cy="22" r="4.5" fill="#ff6b6b"/>
+    <circle cx="40" cy="22" r="4.5" fill="#ffc857"/>
+    <circle cx="56" cy="22" r="4.5" fill="#42d392"/>
+    <rect x="155" y="14" width="122" height="16" rx="8" fill="#ffffff" fill-opacity="0.06"/>
+    <text x="216" y="25" text-anchor="middle" fill="#ffffff" fill-opacity="0.3" font-family="Arial, sans-serif" font-size="7" letter-spacing="1">nuqta.studio</text>
+    <circle cx="36" cy="72" r="8" fill="url(#ogAccent)"/>
+    <rect x="52" y="68" width="45" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.6"/>
+    <g fill="#ffffff" fill-opacity="0.18">
+      <rect x="286" y="69" width="26" height="5" rx="2.5"/>
+      <rect x="322" y="69" width="26" height="5" rx="2.5"/>
+      <rect x="358" y="69" width="38" height="5" rx="2.5"/>
+    </g>
+    <rect x="36" y="118" width="54" height="7" rx="3.5" fill="url(#ogAccent)"/>
+    <rect x="36" y="143" width="272" height="16" rx="8" fill="#ffffff" fill-opacity="0.9"/>
+    <rect x="36" y="169" width="194" height="16" rx="8" fill="#ffffff" fill-opacity="0.58"/>
+    <rect x="36" y="202" width="320" height="6" rx="3" fill="#ffffff" fill-opacity="0.12"/>
+    <rect x="36" y="216" width="245" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+    <rect x="36" y="240" width="88" height="30" rx="15" fill="url(#ogAccent)"/>
+    <rect x="133" y="240" width="78" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="36" y="298" width="360" height="54" rx="13" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07"/>
+    <g>
+      <rect x="53" y="335" width="18" height="10" rx="2" fill="#8b70ff" fill-opacity="0.7"/>
+      <rect x="77" y="327" width="18" height="18" rx="2" fill="#8b70ff" fill-opacity="0.8"/>
+      <rect x="101" y="316" width="18" height="29" rx="2" fill="#7b5cff"/>
+      <rect x="125" y="322" width="18" height="23" rx="2" fill="#6b8bff"/>
+      <rect x="149" y="309" width="18" height="36" rx="2" fill="#5b9bff"/>
+      <rect x="173" y="319" width="18" height="26" rx="2" fill="#4d8cff"/>
+      <rect x="197" y="303" width="18" height="42" rx="2" fill="#2f6bff"/>
+      <rect x="221" y="314" width="18" height="31" rx="2" fill="#2f6bff" fill-opacity="0.7"/>
+    </g>
+    <circle cx="346" cy="325" r="19" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="5"/>
+    <circle cx="346" cy="325" r="19" fill="none" stroke="url(#ogAccent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="88 120" transform="rotate(-90 346 325)"/>
+    <text x="346" y="328" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="7">98%</text>
+  </g>
+
+  <!-- المحتوى النصي -->
+  <g text-anchor="end" font-family="Tahoma, Arial, sans-serif">
+    <text x="1128" y="118" fill="#a78bfa" font-size="15" letter-spacing="4">NUQTA · DIGITAL STUDIO</text>
+    <text x="1128" y="224" fill="#ffffff" font-size="82" font-weight="700">نُقطة</text>
+    <text x="1128" y="298" fill="#ffffff" font-size="37" font-weight="700">حوّل فكرتك إلى</text>
+    <text x="1128" y="350" fill="url(#ogGradient)" font-size="42" font-weight="700">واقع رقمي.</text>
+    <text x="1128" y="399" fill="#ffffff" fill-opacity="0.48" font-size="16">تصميم مواقع · تطوير · هوية رقمية · تحسين أداء</text>
+    <g>
+      <rect x="897" y="436" width="231" height="48" rx="24" fill="url(#ogAccent)"/>
+      <text x="1012" y="467" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">ابدأ مشروعك</text>
+    </g>
+    <g fill="#ffffff" fill-opacity="0.36" font-size="13">
+      <text x="1128" y="535">جودة عالية</text>
+      <text x="1020" y="535">·</text>
+      <text x="995" y="535">تسليم في الوقت</text>
+      <text x="872" y="535">·</text>
+      <text x="842" y="535">دعم مستمر</text>
+    </g>
+  </g>
+
+  <!-- شعار دائري -->
+  <g transform="translate(1092 58)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#ffffff" stroke-opacity="0.16"/>
+    <circle cx="0" cy="0" r="4" fill="#ffffff"/>
+    <circle cx="0" cy="-9" r="2" fill="#ffffff" opacity="0.7"/>
+    <circle cx="0" cy="9" r="2" fill="#ffffff" opacity="0.7"/>
+    <circle cx="-9" cy="0" r="2" fill="#ffffff" opacity="0.7"/>
+    <circle cx="9" cy="0" r="2" fill="#ffffff" opacity="0.7"/>
+  </g>
+</svg>

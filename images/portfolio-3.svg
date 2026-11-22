@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas Travel — صفحة هبوط للسفر</title>
+  <desc id="desc">صفحة هبوط لشركة سفر بتصميم طبيعي هادئ مع جبال وبحيرة وبطاقات وجهات.</desc>
+
+  <defs>
+    <linearGradient id="atlasBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7f4f2"/>
+      <stop offset="0.55" stop-color="#dcefee"/>
+      <stop offset="1" stop-color="#cfe4e5"/>
+    </linearGradient>
+    <linearGradient id="atlasSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8f0ed"/>
+      <stop offset="0.55" stop-color="#b8e1de"/>
+      <stop offset="1" stop-color="#84c4c5"/>
+    </linearGradient>
+    <linearGradient id="atlasMountainBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8bb9b5"/>
+      <stop offset="1" stop-color="#5f9998"/>
+    </linearGradient>
+    <linearGradient id="atlasMountainFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f8587"/>
+      <stop offset="1" stop-color="#2d686c"/>
+    </linearGradient>
+    <linearGradient id="atlasWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8d8d4"/>
+      <stop offset="1" stop-color="#5ca6a8"/>
+    </linearGradient>
+    <linearGradient id="atlasAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="atlasSun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4d6"/>
+      <stop offset="1" stop-color="#f6cf82"/>
+    </linearGradient>
+    <filter id="atlasBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="atlasShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#1e5354" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- الخلفية -->
+  <rect width="1200" height="900" fill="url(#atlasBg)"/>
+  <circle cx="1080" cy="80" r="260" fill="#8ed1ca" opacity="0.25" filter="url(#atlasBlur)"/>
+  <circle cx="100" cy="820" r="240" fill="#5da9aa" opacity="0.15" filter="url(#atlasBlur)"/>
+
+  <!-- نافذة المتصفح -->
+  <g transform="translate(100 100)" filter="url(#atlasShadow)">
+    <rect width="1000" height="700" rx="26" fill="#f9fdfc" stroke="#bcdad8"/>
+    <path d="M0 26A26 26 0 0 1 26 0h948a26 26 0 0 1 26 26v20H0Z" fill="#edf8f6"/>
+    <circle cx="26" cy="23" r="4.5" fill="#ef8d82"/>
+    <circle cx="42" cy="23" r="4.5" fill="#efc26d"/>
+    <circle cx="58" cy="23" r="4.5" fill="#77c78d"/>
+    <rect x="405" y="15" width="190" height="17" rx="8.5" fill="#ffffff" fill-opacity="0.85"/>
+    <text x="500" y="27" text-anchor="middle" fill="#5d8887" font-family="Arial, sans-serif" font-size="8" letter-spacing="1">atlas.travel</text>
+
+    <!-- شريط التنقل -->
+    <circle cx="48" cy="71" r="11" fill="url(#atlasAccent)"/>
+    <path d="M42 71l4-7 4 7-4 4Z" fill="#fff" fill-opacity="0.9"/>
+    <text x="66" y="76" fill="#154b4d" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">ATLAS</text>
+    <g fill="#477273" font-family="Arial, sans-serif" font-size="9">
+      <text x="435" y="75">Destinations</text>
+      <text x="530" y="75">Experiences</text>
+      <text x="625" y="75">Journal</text>
+    </g>
+    <rect x="795" y="55" width="72" height="31" rx="15.5" fill="#ffffff" stroke="#cfe5e2"/>
+    <text x="831" y="74" text-anchor="middle" fill="#2a5f60" font-family="Arial, sans-serif" font-size="8">Sign in</text>
+    <rect x="879" y="55" width="77" height="31" rx="15.5" fill="url(#atlasAccent)"/>
+    <text x="917" y="74" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">Book now</text>
+
+    <!-- صورة الهيرو -->
+    <path d="M0 96h1000v352H0Z" fill="url(#atlasSky)"/>
+    <circle cx="810" cy="170" r="48" fill="url(#atlasSun)" opacity="0.9"/>
+    <path d="M0 340 170 190l128 122 110-84 188 140 130-86 138 96 136-116v190H0Z" fill="url(#atlasMountainBack)" opacity="0.7"/>
+    <path d="M0 386 148 252l112 88 102-65 162 113 132-88 136 95 128-78 80 51v118H0Z" fill="url(#atlasMountainFront)"/>
+    <path d="M0 402c150-26 246-4 350 16 103 20 202 14 318-10 100-21 207-18 332 7v71H0Z" fill="url(#atlasWater)"/>
+    <g opacity="0.45" stroke="#d9f1ee" stroke-width="1">
+      <path d="M60 433h180M290 446h140M470 430h210M730 449h170"/>
+    </g>
+    <path d="M0 96h1000v352H0Z" fill="#0b3f42" fill-opacity="0.12"/>
+
+    <!-- محتوى الهيرو -->
+    <text x="54" y="159" fill="#ffffff" fill-opacity="0.72" font-family="Arial, sans-serif" font-size="8" letter-spacing="2.5">CURATED JOURNEYS · 2026</text>
+    <text x="54" y="211" fill="#ffffff" font-family="Georgia, serif" font-size="44" font-weight="400">Find your next</text>
+    <text x="54" y="258" fill="#ffffff" font-family="Georgia, serif" font-size="44" font-weight="400" font-style="italic">horizon.</text>
+    <text x="54" y="286" fill="#ffffff" fill-opacity="0.72" font-family="Arial, sans-serif" font-size="9">Small-group escapes to places that stay with you.</text>
+
+    <!-- شريط البحث -->
+    <g transform="translate(54 310)">
+      <rect width="476" height="48" rx="24" fill="#ffffff" fill-opacity="0.96"/>
+      <circle cx="28" cy="24" r="5" fill="none" stroke="#2d686c" stroke-width="1.5"/>
+      <path d="m32 28 4 4" stroke="#2d686c" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="48" y="28" fill="#355f60" font-family="Arial, sans-serif" font-size="9">Where would you like to go?</text>
+      <path d="M348 15v18" stroke="#cfe3e0"/>
+      <text x="364" y="28" fill="#355f60" font-family="Arial, sans-serif" font-size="9">Any dates</text>
+      <circle cx="446" cy="24" r="16" fill="url(#atlasAccent)"/>
+      <path d="M440 24h12M447 19l5 5-5 5" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- شارة على الصورة -->
+    <g transform="translate(760 327)">
+      <rect width="186" height="58" rx="13" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.25"/>
+      <circle cx="29" cy="29" r="16" fill="#ffffff" fill-opacity="0.2"/>
+      <path d="M23 30c5-9 13-10 13-10s-1 8-9 13l-4 4Z" fill="#fff"/>
+      <text x="54" y="26" fill="#ffffff" font-family="Arial, sans-serif" font-size="7" fill-opacity="0.7" letter-spacing="1">NEXT DEPARTURE</text>
+      <text x="54" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" font-weight="700">Patagonia · 8 days</text>
+    </g>
+
+    <!-- الوجهات -->
+    <text x="48" y="486" fill="#154b4d" font-family="Georgia, serif" font-size="17">Places worth the journey</text>
+    <text x="952" y="486" text-anchor="end" fill="#5d8887" font-family="Arial, sans-serif" font-size="8">View all →</text>
+
+    <!-- وجهة 1 -->
+    <g transform="translate(48 506)">
+      <rect width="286" height="154" rx="14" fill="#e8f3f1"/>
+      <path d="M0 14a14 14 0 0 1 14-14h258a14 14 0 0 1 14 14v84H0Z" fill="#b8d9d4"/>
+      <path d="M0 98 58 54l42 34 43-26 55 36 36-22 52 34v44H0Z" fill="#6ba7a4"/>
+      <circle cx="230" cy="35" r="15" fill="#f7d994"/>
+      <rect x="13" y="112" width="72" height="6" rx="3" fill="#245d5f" fill-opacity="0.7"/>
+      <rect x="13" y="125" width="108" height="5" rx="2.5" fill="#477273" fill-opacity="0.5"/>
+      <text x="273" y="127" text-anchor="end" fill="#245d5f" font-family="Arial, sans-serif" font-size="8">from $1,240</text>
+    </g>
+
+    <!-- وجهة 2 -->
+    <g transform="translate(356 506)">
+      <rect width="286" height="154" rx="14" fill="#eef4ef"/>
+      <path d="M0 14a14 14 0 0 1 14-14h258a14 14 0 0 1 14 14v84H0Z" fill="#cad9bc"/>
+      <path d="M0 96c38-25 70-15 98 1 29 16 55 17 86-5 33-23 63-15 102 5v43H0Z" fill="#81966d"/>
+      <path d="M185 98c-1-31 7-50 20-59 13 9 21 28 20 59Z" fill="#5f7650"/>
+      <rect x="13" y="112" width="80" height="6" rx="3" fill="#3d5330" fill-opacity="0.7"/>
+      <rect x="13" y="125" width="100" height="5" rx="2.5" fill="#617554" fill-opacity="0.5"/>
+      <text x="273" y="127" text-anchor="end" fill="#3d5330" font-family="Arial, sans-serif" font-size="8">from $980</text>
+    </g>
+
+    <!-- وجهة 3 -->
+    <g transform="translate(664 506)">
+      <rect width="286" height="154" rx="14" fill="#f3eee3"/>
+      <path d="M0 14a14 14 0 0 1 14-14h258a14 14 0 0 1 14 14v84H0Z" fill="#e4d1b4"/>
+      <path d="M0 92 54 50l39 26 41-38 49 40 42-29 61 41v64H0Z" fill="#b18b61"/>
+      <circle cx="228" cy="37" r="14" fill="#f0c778"/>
+      <rect x="13" y="112" width="68" height="6" rx="3" fill="#60482e" fill-opacity="0.7"/>
+      <rect x="13" y="125" width="96" height="5" rx="2.5" fill="#866b4e" fill-opacity="0.5"/>
+      <text x="273" y="127" text-anchor="end" fill="#60482e" font-family="Arial, sans-serif" font-size="8">from $1,560</text>
+    </g>
+  </g>
+
+  <!-- بطاقة عائمة -->
+  <g transform="translate(900 738)">
+    <rect width="205" height="67" rx="16" fill="#ffffff" stroke="#d4e8e5"/>
+    <circle cx="31" cy="33.5" r="15" fill="#e6f3f0"/>
+    <path d="M25 37h12l-6-11Z" fill="none" stroke="#0f766e" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="55" y="29" fill="#154b4d" font-family="Arial, sans-serif" font-size="8" fill-opacity="0.55">FLEXIBLE BOOKING</text>
+    <text x="55" y="45" fill="#154b4d" font-family="Georgia, serif" font-size="12">Travel with ease</text>
+  </g>
+</svg>

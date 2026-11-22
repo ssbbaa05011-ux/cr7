@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pulse SaaS — لوحة تحكم تحليلات</title>
+  <desc id="desc">واجهة داكنة لمنصة SaaS مع رسوم بيانية زرقاء ولمسات خضراء وبطاقات مؤشرات.</desc>
+
+  <defs>
+    <linearGradient id="pulseBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040811"/>
+      <stop offset="0.5" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0b1930"/>
+    </linearGradient>
+    <radialGradient id="pulseGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pulseGlowLime" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a3e635" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#a3e635" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pulseAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f6bff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="pulseArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulseCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1a2d"/>
+      <stop offset="1" stop-color="#0a1424"/>
+    </linearGradient>
+    <filter id="pulseBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="pulseShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- الخلفية -->
+  <rect width="1200" height="900" fill="url(#pulseBg)"/>
+  <circle cx="1020" cy="100" r="320" fill="url(#pulseGlow)" filter="url(#pulseBlur)"/>
+  <circle cx="100" cy="800" r="260" fill="url(#pulseGlowLime)" filter="url(#pulseBlur)"/>
+  <g opacity="0.14" stroke="#68a5ff" stroke-width="1">
+    <path d="M0 120h1200M0 270h1200M0 420h1200M0 570h1200M0 720h1200"/>
+    <path d="M180 0v900M360 0v900M540 0v900M720 0v900M900 0v900M1080 0v900"/>
+  </g>
+
+  <!-- نافذة المتصفح -->
+  <g transform="translate(100 100)" filter="url(#pulseShadow)">
+    <rect width="1000" height="700" rx="25" fill="#08111f" stroke="#243b5c"/>
+    <path d="M0 25A25 25 0 0 1 25 0h950a25 25 0 0 1 25 25v21H0Z" fill="#0b1628"/>
+    <circle cx="26" cy="23" r="4.5" fill="#ff6b6b"/>
+    <circle cx="42" cy="23" r="4.5" fill="#ffc857"/>
+    <circle cx="58" cy="23" r="4.5" fill="#42d392"/>
+    <rect x="405" y="15" width="190" height="17" rx="8.5" fill="#ffffff" fill-opacity="0.05"/>
+    <text x="500" y="27" text-anchor="middle" fill="#ffffff" fill-opacity="0.3" font-family="Arial, sans-serif" font-size="8" letter-spacing="1">app.pulse.io</text>
+    <circle cx="902" cy="23" r="4" fill="#a3e635"/>
+    <text x="913" y="26" fill="#ffffff" fill-opacity="0.3" font-family="Arial, sans-serif" font-size="7">SYNCED</text>
+
+    <!-- الشريط الجانبي -->
+    <rect x="0" y="46" width="175" height="654" fill="#070f1b"/>
+    <circle cx="30" cy="80" r="10" fill="url(#pulseAccent)"/>
+    <text x="48" y="85" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1">PULSE</text>
+    <g fill="#ffffff" fill-opacity="0.28">
+      <rect x="30" y="126" width="8" height="8" rx="2"/>
+      <rect x="48" y="128" width="45" height="5" rx="2.5"/>
+      <rect x="30" y="164" width="8" height="8" rx="2"/>
+      <rect x="48" y="166" width="55" height="5" rx="2.5"/>
+      <rect x="30" y="202" width="8" height="8" rx="2"/>
+      <rect x="48" y="204" width="39" height="5" rx="2.5"/>
+      <rect x="30" y="240" width="8" height="8" rx="2"/>
+      <rect x="48" y="242" width="50" height="5" rx="2.5"/>
+      <rect x="30" y="278" width="8" height="8" rx="2"/>
+      <rect x="48" y="280" width="43" height="5" rx="2.5"/>
+    </g>
+    <rect x="16" y="112" width="144" height="33" rx="9" fill="#2f6bff" fill-opacity="0.15"/>
+    <rect x="16" y="451" width="144" height="104" rx="12" fill="#ffffff" fill-opacity="0.035"/>
+    <circle cx="33" cy="473" r="9" fill="#a3e635" fill-opacity="0.2"/>
+    <path d="M29 473h8M33 469v8" stroke="#a3e635" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="49" y="477" fill="#ffffff" fill-opacity="0.55" font-family="Arial, sans-serif" font-size="8">Upgrade plan</text>
+    <text x="28" y="497" fill="#ffffff" fill-opacity="0.24" font-family="Arial, sans-serif" font-size="7">Unlock advanced analytics</text>
+    <rect x="28" y="511" width="120" height="25" rx="12.5" fill="url(#pulseAccent)"/>
+    <text x="88" y="527" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="7">Upgrade now</text>
+    <circle cx="36" cy="619" r="13" fill="#2f6bff" fill-opacity="0.2"/>
+    <text x="36" y="623" text-anchor="middle" fill="#8ab7ff" font-family="Arial, sans-serif" font-size="8" font-weight="700">AK</text>
+    <rect x="57" y="610" width="47" height="5" rx="2.5" fill="#ffffff" fill-opacity="0.32"/>
+    <rect x="57" y="621" width="34" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/>
+
+    <!-- المحتوى -->
+    <text x="208" y="88" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Overview</text>
+    <text x="208" y="107" fill="#ffffff" fill-opacity="0.32" font-family="Arial, sans-serif" font-size="8">Monitor your product performance in real time.</text>
+    <rect x="794" y="68" width="84" height="29" rx="14.5" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="836" y="86" text-anchor="middle" fill="#ffffff" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="7">Last 30 days</text>
+    <rect x="890" y="68" width="75" height="29" rx="14.5" fill="url(#pulseAccent)"/>
+    <text x="927" y="86" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="7">Export</text>
+
+    <!-- بطاقات المؤشرات -->
+    <g>
+      <rect x="208" y="127" width="231" height="106" rx="14" fill="url(#pulseCard)" stroke="#ffffff" stroke-opacity="0.07"/>
+      <text x="226" y="151" fill="#ffffff" fill-opacity="0.38" font-family="Arial, sans-serif" font-size="8">TOTAL REVENUE</text>
+      <text x="226" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="21" font-weight="700">$128,430</text>
+      <rect x="226" y="193" width="48" height="19" rx="9.5" fill="#a3e635" fill-opacity="0.12"/>
+      <text x="250" y="206" text-anchor="middle" fill="#c8f36b" font-family="Arial, sans-serif" font-size="7">+18.2%</text>
+      <path d="M354 205l12-12 11 7 13-17 14 8 15-20" fill="none" stroke="#a3e635" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="450" y="127" width="231" height="106" rx="14" fill="url(#pulseCard)" stroke="#ffffff" stroke-opacity="0.07"/>
+      <text x="468" y="151" fill="#ffffff" fill-opacity="0.38" font-family="Arial, sans-serif" font-size="8">ACTIVE USERS</text>
+      <text x="468" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="21" font-weight="700">24,892</text>
+      <rect x="468" y="193" width="44" height="19" rx="9.5" fill="#2f6bff" fill-opacity="0.16"/>
+      <text x="490" y="206" text-anchor="middle" fill="#8ab7ff" font-family="Arial, sans-serif" font-size="7">+9.4%</text>
+      <path d="M596 205l12-7 11 3 13-13 14 5 15-14" fill="none" stroke="#4d8cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="692" y="127" width="273" height="106" rx="14" fill="url(#pulseCard)" stroke="#ffffff" stroke-opacity="0.07"/>
+      <text x="710" y="151" fill="#ffffff" fill-opacity="0.38" font-family="Arial, sans-serif" font-size="8">CONVERSION RATE</text>
+      <text x="710" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="21" font-weight="700">4.82%</text>
+      <text x="795" y="180" fill="#c8f36b" font-family="Arial, sans-serif" font-size="8">+0.6%</text>
+      <circle cx="895" cy="180" r="28" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="7"/>
+      <circle cx="895" cy="180" r="28" fill="none" stroke="url(#pulseAccent)" stroke-width="7" stroke-linecap="round" stroke-dasharray="132 176" transform="rotate(-90 895 180)"/>
+      <text x="895" y="183" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="700">75%</text>
+    </g>
+
+    <!-- الرسم البياني الرئيسي -->
+    <rect x="208" y="253" width="516" height="259" rx="15" fill="url(#pulseCard)" stroke="#ffffff" stroke-opacity="0.07"/>
+    <text x="228" y="280" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" font-weight="700">Revenue analytics</text>
+    <text x="228" y="296" fill="#ffffff" fill-opacity="0.3" font-family="Arial, sans-serif" font-size="7">Monthly recurring revenue</text>
+    <circle cx="648" cy="276" r="3" fill="#2f6bff"/>
+    <text x="657" y="279" fill="#ffffff" fill-opacity="0.34" font-family="Arial, sans-serif" font-size="7">Revenue</text>
+    <circle cx="708" cy="276" r="3" fill="#a3e635"/>
+    <text x="717" y="279" fill="#ffffff" fill-opacity="0.34" font-family="Arial, sans-serif" font-size="7">Target</text>
+    <g stroke="#ffffff" stroke-opacity="0.05">
+      <path d="M228 331h474M228 372h474M228 413h474M228 454h474M228 495h474"/>
+    </g>
+    <path d="M228 475C258 458 275 469 300 445C325 421 350 433 375 405C400 377 426 400 450 365C475 330 500 350 525 330C550 310 575 323 600 292C625 261 651 277 676 252C695 233 708 230 720 219" fill="none" stroke="url(#pulseAccent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M228 475C258 458 275 469 300 445C325 421 350 433 375 405C400 377 426 400 450 365C475 330 500 350 525 330C550 310 575 323 600 292C625 261 651 277 676 252C695 233 708 230 720 219V495H228Z" fill="url(#pulseArea)"/>
+    <path d="M228 489C261 476 281 482 307 464C333 446 356 453 381 437C406 421 432 429 456 407C480 385 503 393 528 376C553 359 578 367 603 345C628 323 652 333 677 310C697 291 710 286 720 279" fill="none" stroke="#a3e635" stroke-width="1.6" stroke-dasharray="5 5" stroke-opacity="0.6"/>
+    <g fill="#ffffff" fill-opacity="0.24" font-family="Arial, sans-serif" font-size="6">
+      <text x="228" y="509">Jan</text>
+      <text x="309" y="509">Feb</text>
+      <text x="390" y="509">Mar</text>
+      <text x="471" y="509">Apr</text>
+      <text x="552" y="509">May</text>
+      <text x="633" y="509">Jun</text>
+      <text x="704" y="509">Jul</text>
+    </g>
+
+    <!-- اللوحة الجانبية -->
+    <rect x="740" y="253" width="225" height="259" rx="15" fill="url(#pulseCard)" stroke="#ffffff" stroke-opacity="0.07"/>
+    <text x="760" y="280" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" font-weight="700">Live activity</text>
+    <circle cx="938" cy="276" r="4" fill="#a3e635"/>
+    <g>
+      <circle cx="770" cy="314" r="10" fill="#2f6bff" fill-opacity="0.18"/>
+      <path d="M766 314h8M770 310v8" stroke="#8ab7ff" stroke-width="1.1" stroke-linecap="round"/>
+      <rect x="789" y="308" width="73" height="5" rx="2.5" fill="#ffffff" fill-opacity="0.34"/>
+      <rect x="789" y="319" width="104" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/>
+      <text x="941" y="317" text-anchor="end" fill="#ffffff" fill-opacity="0.22" font-family="Arial, sans-serif" font-size="6">2m</text>
+    </g>
+    <g>
+      <circle cx="770" cy="357" r="10" fill="#a3e635" fill-opacity="0.14"/>
+      <path d="m766 357 3 3 5-6" fill="none" stroke="#c8f36b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="789" y="351" width="88" height="5" rx="2.5" fill="#ffffff" fill-opacity="0.34"/>
+      <rect x="789" y="362" width="72" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/>
+      <text x="941" y="360" text-anchor="end" fill="#ffffff" fill-opacity="0.22" font-family="Arial, sans-serif" font-size="6">8m</text>
+    </g>
+    <g>
+      <circle cx="770" cy="400" r="10" fill="#22d3ee" fill-opacity="0.14"/>
+      <path d="M765 400h10M770 395v10" stroke="#67e8f9" stroke-width="1.1" stroke-linecap="round"/>
+      <rect x="789" y="394" width="65" height="5" rx="2.5" fill="#ffffff" fill-opacity="0.34"/>
+      <rect x="789" y="405" width="97" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/>
+      <text x="941" y="403" text-anchor="end" fill="#ffffff" fill-opacity="0.22" font-family="Arial, sans-serif" font-size="6">14m</text>
+    </g>
+    <path d="M760 429h185" stroke="#ffffff" stroke-opacity="0.06"/>
+    <text x="760" y="452" fill="#ffffff" fill-opacity="0.3" font-family="Arial, sans-serif" font-size="7">Weekly goal</text>
+    <text x="945" y="452" text-anchor="end" fill="#ffffff" font-family="Arial, sans-serif" font-size="7">82%</text>
+    <rect x="760" y="463" width="185" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="760" y="463" width="152" height="6" rx="3" fill="url(#pulseAccent)"/>
+    <rect x="760" y="486" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.08"/>
+    <rect x="760" y="496" width="54" height="4" rx="2" fill="#ffffff" fill-opacity="0.06"/>
+
+    <!-- جدول -->
+    <rect x="208" y="529" width="757" height="143" rx="15" fill="url(#pulseCard)" stroke="#ffffff" stroke-opacity="0.07"/>
+    <text x="228" y="554" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Recent transactions</text>
+    <text x="945" y="554" text-anchor="end" fill="#8ab7ff" font-family="Arial, sans-serif" font-size="7">View all</text>
+    <g fill="#ffffff" fill-opacity="0.22" font-family="Arial, sans-serif" font-size="6">
+      <text x="228" y="577">CUSTOMER</text>
+      <text x="493" y="577">PLAN</text>
+      <text x="633" y="577">STATUS</text>
+      <text x="944" y="577" text-anchor="end">AMOUNT</text>
+    </g>
+    <path d="M228 585h717" stroke="#ffffff" stroke-opacity="0.06"/>
+    <g>
+      <circle cx="238" cy="603" r="10" fill="#2f6bff" fill-opacity="0.2"/>
+      <text x="238" y="607" text-anchor="middle" fill="#8ab7ff" font-family="Arial, sans-serif" font-size="6">JL</text>
+      <rect x="256" y="598" width="68" height="5" rx="2.5" fill="#ffffff" fill-opacity="0.28"/>
+      <rect x="256" y="608" width="91" height="4" rx="2" fill="#ffffff" fill-opacity="0.1"/>
+      <rect x="493" y="598" width="51" height="16" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="518" y="609" text-anchor="middle" fill="#ffffff" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="6">Growth</text>
+      <rect x="633" y="598" width="48" height="16" rx="8" fill="#a3e635" fill-opacity="0.1"/>
+      <text x="657" y="609" text-anchor="middle" fill="#c8f36b" font-family="Arial, sans-serif" font-size="6">Paid</text>
+      <text x="944" y="609" text-anchor="end" fill="#ffffff" fill-opacity="0.55" font-family="Arial, sans-serif" font-size="7">$1,240.00</text>
+    </g>
+    <path d="M228 624h717" stroke="#ffffff" stroke-opacity="0.04"/>
+    <g>
+      <circle cx="238" cy="642" r="10" fill="#22d3ee" fill-opacity="0.15"/>
+      <text x="238" y="646" text-anchor="middle" fill="#67e8f9" font-family="Arial, sans-serif" font-size="6">MS</text>
+      <rect x="256" y="637" width="82" height="5" rx="2.5" fill="#ffffff" fill-opacity="0.28"/>
+      <rect x="256" y="647" width="67" height="4" rx="2" fill="#ffffff" fill-opacity="0.1"/>
+      <rect x="493" y="637" width="46" height="16" rx="8" fill="#ffffff" fill-opacity="0.05"/>
+      <text x="516" y="648" text-anchor="middle" fill="#ffffff" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="6">Starter</text>
+      <rect x="633" y="637" width="48" height="16" rx="8" fill="#a3e635" fill-opacity="0.1"/>
+      <text x="657" y="648" text-anchor="middle" fill="#c8f36b" font-family="Arial, sans-serif" font-size="6">Paid</text>
+      <text x="944" y="648" text-anchor="end" fill="#ffffff" fill-opacity="0.55" font-family="Arial, sans-serif" font-size="7">$320.00</text>
+    </g>
+    <path d="M228 663h717" stroke="#ffffff" stroke-opacity="0.04"/>
+  </g>
+
+  <!-- بطاقة عائمة -->
+  <g transform="translate(928 738)">
+    <rect width="182" height="67" rx="16" fill="#0c1728" stroke="#243b5c"/>
+    <circle cx="31" cy="33.5" r="14" fill="#a3e635" fill-opacity="0.12"/>
+    <path d="M24 37l5-6 4 3 5-8" fill="none" stroke="#c8f36b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="54" y="29" fill="#ffffff" fill-opacity="0.35" font-family="Arial, sans-serif" font-size="7">MONTHLY GROWTH</text>
+    <text x="54" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="700">+24.8%</text>
+  </g>
+</svg>

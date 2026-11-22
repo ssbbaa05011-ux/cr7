@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Aura Studio — هوية شخصية</title>
+  <desc id="desc">موقع شخصي لمصممة بهوية بنفسجية هادئة وتصميم تحريري أنيق.</desc>
+
+  <defs>
+    <linearGradient id="auraBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2edff"/>
+      <stop offset="0.55" stop-color="#e9e1ff"/>
+      <stop offset="1" stop-color="#ded4ff"/>
+    </linearGradient>
+    <radialGradient id="auraGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b70ff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#8b70ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="auraPortraitBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cabaff"/>
+      <stop offset="0.55" stop-color="#9d83ff"/>
+      <stop offset="1" stop-color="#6c4cff"/>
+    </linearGradient>
+    <linearGradient id="auraSkin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d7c9"/>
+      <stop offset="1" stop-color="#d8ab99"/>
+    </linearGradient>
+    <linearGradient id="auraHair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2141"/>
+      <stop offset="1" stop-color="#0f0b18"/>
+    </linearGradient>
+    <linearGradient id="auraAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6c4cff"/>
+      <stop offset="1" stop-color="#2f6bff"/>
+    </linearGradient>
+    <filter id="auraBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="auraShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#3b2b78" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- الخلفية -->
+  <rect width="1200" height="900" fill="url(#auraBg)"/>
+  <circle cx="1080" cy="100" r="270" fill="url(#auraGlow)" filter="url(#auraBlur)"/>
+  <circle cx="100" cy="820" r="240" fill="url(#auraGlow)" filter="url(#auraBlur)"/>
+  <g fill="none" stroke="#6c4cff" stroke-opacity="0.1">
+    <circle cx="1080" cy="790" r="160"/>
+    <circle cx="1080" cy="790" r="215"/>
+    <circle cx="1080" cy="790" r="270"/>
+  </g>
+
+  <!-- نافذة المتصفح -->
+  <g transform="translate(100 100)" filter="url(#auraShadow)">
+    <rect width="1000" height="700" rx="26" fill="#fcfbff" stroke="#ded5f8"/>
+    <path d="M0 26A26 26 0 0 1 26 0h948a26 26 0 0 1 26 26v20H0Z" fill="#f4f0ff"/>
+    <circle cx="26" cy="23" r="4.5" fill="#c0b0f5"/>
+    <circle cx="42" cy="23" r="4.5" fill="#d9c9ff"/>
+    <circle cx="58" cy="23" r="4.5" fill="#b7a1ff"/>
+    <rect x="405" y="15" width="190" height="17" rx="8.5" fill="#ffffff" fill-opacity="0.9"/>
+    <text x="500" y="27" text-anchor="middle" fill="#8576a7" font-family="Arial, sans-serif" font-size="8" letter-spacing="1">aura.studio</text>
+
+    <!-- شريط التنقل -->
+    <text x="48" y="80" fill="#221c31" font-family="Georgia, serif" font-size="18" font-weight="700" letter-spacing="5">AURA</text>
+    <g fill="#655b78" font-family="Arial, sans-serif" font-size="9">
+      <text x="465" y="77">Work</text>
+      <text x="522" y="77">About</text>
+      <text x="584" y="77">Services</text>
+      <text x="655" y="77">Journal</text>
+    </g>
+    <rect x="842" y="56" width="112" height="32" rx="16" fill="#221c31"/>
+    <text x="898" y="76" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">Let’s talk</text>
+
+    <!-- محتوى الهيرو -->
+    <text x="48" y="143" fill="#6c4cff" font-family="Arial, sans-serif" font-size="8" letter-spacing="2.5">INDEPENDENT CREATIVE DIRECTOR</text>
+    <text x="48" y="201" fill="#221c31" font-family="Georgia, serif" font-size="46" font-weight="400">Design with</text>
+    <text x="48" y="249" fill="#221c31" font-family="Georgia, serif" font-size="46" font-weight="400" font-style="italic">intention.</text>
+    <text x="48" y="283" fill="#6f6481" font-family="Arial, sans-serif" font-size="9">Brand identities and digital experiences for thoughtful people.</text>
+    <text x="48" y="299" fill="#6f6481" font-family="Arial, sans-serif" font-size="9">Based in Riyadh — working worldwide.</text>
+
+    <rect x="48" y="325" width="123" height="38" rx="19" fill="url(#auraAccent)"/>
+    <text x="109" y="348" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">View selected work</text>
+    <circle cx="194" cy="344" r="17" fill="none" stroke="#d9d0ef"/>
+    <path d="M188 344h12M195 339l5 5-5 5" fill="none" stroke="#4d3c79" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- الصورة الشخصية -->
+    <circle cx="714" cy="245" r="155" fill="url(#auraPortraitBg)"/>
+    <circle cx="714" cy="245" r="155" fill="none" stroke="#ffffff" stroke-opacity="0.35"/>
+    <g>
+      <path d="M640 341c-9-48 0-91 38-108 15-7 31-10 45-9 55 4 91 49 83 111l-21 9-145-3Z" fill="url(#auraHair)"/>
+      <path d="M671 260c0-43 17-73 49-73 32 0 50 30 50 73 0 46-21 84-50 84-29 0-49-38-49-84Z" fill="url(#auraSkin)"/>
+      <path d="M676 235c8-33 26-49 49-49 24 0 42 18 48 49-15-14-30-20-49-20-18 0-34 6-48 20Z" fill="url(#auraHair)"/>
+      <path d="M677 249c-9-34 4-72 35-82 8-3 15-3 23-1 34 8 51 47 40 84-4-24-15-41-31-49-10 16-27 25-50 26-5 8-9 15-12 26Z" fill="url(#auraHair)"/>
+      <path d="M697 271c3-3 8-3 11 0M735 271c3-3 8-3 11 0" fill="none" stroke="#6b4b42" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M713 293c4 5 10 5 15 0" fill="none" stroke="#b96f65" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M720 274v11h-4" fill="none" stroke="#c99484" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M660 391c9-43 35-61 60-61 26 0 51 18 60 61l-7 29H667Z" fill="#f4ebff"/>
+      <path d="M679 391c7-27 23-40 41-40 18 0 34 13 41 40l-5 20h-72Z" fill="#d7c8ff"/>
+    </g>
+    <circle cx="850" cy="124" r="27" fill="#ffffff" fill-opacity="0.9"/>
+    <path d="M844 124c4-7 12-8 12-8s-1 8-8 12l-4 3Z" fill="#6c4cff"/>
+    <text x="850" y="169" text-anchor="middle" fill="#6c4cff" font-family="Arial, sans-serif" font-size="6" letter-spacing="1">OPEN FOR 2026</text>
+
+    <!-- شريط العمل -->
+    <path d="M48 399h904" stroke="#e9e2f7"/>
+    <text x="48" y="431" fill="#221c31" font-family="Georgia, serif" font-size="15">Selected work</text>
+    <text x="952" y="431" text-anchor="end" fill="#8576a7" font-family="Arial, sans-serif" font-size="8">All projects →</text>
+
+    <!-- أعمال مصغرة -->
+    <g transform="translate(48 449)">
+      <rect width="286" height="210" rx="12" fill="#f1ebff"/>
+      <rect x="20" y="20" width="246" height="125" rx="7" fill="#d8caff"/>
+      <circle cx="143" cy="78" r="36" fill="#8b70ff"/>
+      <path d="M113 93c5-21 15-31 30-31s25 10 30 31Z" fill="#f1eaff"/>
+      <text x="20" y="169" fill="#221c31" font-family="Georgia, serif" font-size="12">Aster Skincare</text>
+      <text x="20" y="186" fill="#8576a7" font-family="Arial, sans-serif" font-size="7">BRAND IDENTITY · PACKAGING</text>
+    </g>
+    <g transform="translate(354 449)">
+      <rect width="286" height="210" rx="12" fill="#f4f1eb"/>
+      <rect x="20" y="20" width="246" height="125" rx="7" fill="#e4ded1"/>
+      <path d="M83 104V56h42v48M100 56V38h8v18" fill="none" stroke="#6b5e48" stroke-width="2"/>
+      <rect x="144" y="63" width="62" height="41" rx="4" fill="#c8b99b"/>
+      <text x="20" y="169" fill="#221c31" font-family="Georgia, serif" font-size="12">Mono Objects</text>
+      <text x="20" y="186" fill="#8576a7" font-family="Arial, sans-serif" font-size="7">ART DIRECTION · WEB DESIGN</text>
+    </g>
+    <g transform="translate(660 449)">
+      <rect width="292" height="210" rx="12" fill="#eef3ff"/>
+      <rect x="20" y="20" width="252" height="125" rx="7" fill="#cddcff"/>
+      <circle cx="146" cy="82" r="37" fill="#2f6bff" fill-opacity="0.9"/>
+      <path d="M112 96c5-24 17-36 34-36s29 12 34 36Z" fill="#eef3ff"/>
+      <text x="20" y="169" fill="#221c31" font-family="Georgia, serif" font-size="12">Noma Finance</text>
+      <text x="20" y="186" fill="#8576a7" font-family="Arial, sans-serif" font-size="7">DIGITAL PRODUCT · UI/UX</text>
+    </g>
+  </g>
+
+  <!-- بطاقة عائمة -->
+  <g transform="translate(920 728)">
+    <rect width="190" height="68" rx="16" fill="#ffffff" stroke="#e4dcf7"/>
+    <circle cx="31" cy="34" r="15" fill="#f0ebff"/>
+    <path d="M25 38c5-8 12-8 12-8s-1 7-8 11l-4 3Z" fill="#6c4cff"/>
+    <text x="55" y="30" fill="#221c31" font-family="Arial, sans-serif" font-size="8" fill-opacity="0.55">AVAILABLE FOR</text>
+    <text x="55" y="46" fill="#221c31" font-family="Georgia, serif" font-size="12">Selected projects</text>
+  </g>
+</svg>

@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mira Dining — موقع مطعم</title>
+  <desc id="desc">موقع مطعم فاخر بألوان دافئة وقائمة طعام وتصوير بصري أنيق.</desc>
+
+  <defs>
+    <linearGradient id="miraBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1b13"/>
+      <stop offset="0.55" stop-color="#3b271c"/>
+      <stop offset="1" stop-color="#4d3122"/>
+    </linearGradient>
+    <radialGradient id="miraGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e1a15e" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#e1a15e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="miraHero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8d3b9"/>
+      <stop offset="0.5" stop-color="#c99b6b"/>
+      <stop offset="1" stop-color="#8c5a36"/>
+    </linearGradient>
+    <radialGradient id="miraPlate" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#fff8ec"/>
+      <stop offset="0.7" stop-color="#f0dfc8"/>
+      <stop offset="1" stop-color="#d8bfa0"/>
+    </radialGradient>
+    <linearGradient id="miraFood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d68648"/>
+      <stop offset="0.5" stop-color="#a94d2a"/>
+      <stop offset="1" stop-color="#6f2e1d"/>
+    </linearGradient>
+    <linearGradient id="miraAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9662f"/>
+      <stop offset="1" stop-color="#d68b4d"/>
+    </linearGradient>
+    <filter id="miraBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="miraShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#120a06" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- الخلفية -->
+  <rect width="1200" height="900" fill="url(#miraBg)"/>
+  <circle cx="1030" cy="100" r="300" fill="url(#miraGlow)" filter="url(#miraBlur)"/>
+  <circle cx="110" cy="830" r="250" fill="url(#miraGlow)" filter="url(#miraBlur)"/>
+  <g fill="none" stroke="#f3d4b0" stroke-opacity="0.08">
+    <circle cx="1080" cy="790" r="160"/>
+    <circle cx="1080" cy="790" r="215"/>
+    <circle cx="1080" cy="790" r="270"/>
+  </g>
+
+  <!-- نافذة المتصفح -->
+  <g transform="translate(100 100)" filter="url(#miraShadow)">
+    <rect width="1000" height="700" rx="26" fill="#f7ecdc" stroke="#5c3d2a"/>
+    <path d="M0 26A26 26 0 0 1 26 0h948a26 26 0 0 1 26 26v20H0Z" fill="#2b1d15"/>
+    <circle cx="26" cy="23" r="4.5" fill="#d58352"/>
+    <circle cx="42" cy="23" r="4.5" fill="#e5b375"/>
+    <circle cx="58" cy="23" r="4.5" fill="#b7a77b"/>
+    <rect x="405" y="15" width="190" height="17" rx="8.5" fill="#ffffff" fill-opacity="0.07"/>
+    <text x="500" y="27" text-anchor="middle" fill="#ffffff" fill-opacity="0.32" font-family="Arial, sans-serif" font-size="8" letter-spacing="1">miradining.com</text>
+
+    <!-- شريط التنقل -->
+    <text x="48" y="80" fill="#2b1d15" font-family="Georgia, serif" font-size="20" font-weight="700" letter-spacing="5">MIRA</text>
+    <g fill="#6b5240" font-family="Arial, sans-serif" font-size="9">
+      <text x="438" y="77">Menu</text>
+      <text x="500" y="77">Our story</text>
+      <text x="584" y="77">Spaces</text>
+      <text x="655" y="77">Journal</text>
+    </g>
+    <rect x="817" y="56" width="135" height="32" rx="16" fill="url(#miraAccent)"/>
+    <text x="884" y="76" text-anchor="middle" fill="#fff8ee" font-family="Arial, sans-serif" font-size="8">Reserve a table</text>
+
+    <!-- مساحة الهيرو -->
+    <path d="M0 96h1000v371H0Z" fill="#e6d0b4"/>
+    <path d="M0 96h550v371H0Z" fill="#f4e6d2"/>
+    <circle cx="760" cy="280" r="160" fill="url(#miraHero)"/>
+    <circle cx="760" cy="280" r="160" fill="#4b2a18" fill-opacity="0.12"/>
+    <g>
+      <circle cx="760" cy="280" r="110" fill="url(#miraPlate)"/>
+      <circle cx="760" cy="280" r="91" fill="none" stroke="#d6b58c" stroke-width="1.5"/>
+      <path d="M700 300c-9-33 7-67 42-79 35-12 73 4 88 35 14 29 4 61-21 80-27 20-67 20-91-2-11-10-16-22-18-34Z" fill="url(#miraFood)"/>
+      <path d="M716 274c13-19 37-29 59-24 17 4 30 16 35 31-18 10-40 12-61 5-14-5-25-8-33-12Z" fill="#d99a5d"/>
+      <path d="M730 307c11-11 27-16 43-13 11 2 20 8 26 16-13 9-30 11-47 5-9-3-16-5-22-8Z" fill="#7d8c4c"/>
+      <circle cx="734" cy="254" r="7" fill="#f5e6c8"/>
+      <circle cx="792" cy="319" r="6" fill="#f5e6c8"/>
+      <path d="M748 239c6-8 15-10 22-7-2 8-9 14-18 16Z" fill="#6d8746"/>
+      <path d="M802 266c7-5 15-4 20 1-4 7-12 10-20 8Z" fill="#6d8746"/>
+      <path d="M702 320c-5-5-11-8-18-9" fill="none" stroke="#f0dfc8" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="760" cy="280" r="130" fill="none" stroke="#f8ecdb" stroke-opacity="0.35"/>
+    </g>
+
+    <!-- محتوى الهيرو -->
+    <text x="48" y="152" fill="#a45f31" font-family="Arial, sans-serif" font-size="8" letter-spacing="2.5">SEASONAL · LOCAL · HONEST</text>
+    <text x="48" y="215" fill="#2b1d15" font-family="Georgia, serif" font-size="51" font-weight="400">Modern dining,</text>
+    <text x="48" y="266" fill="#2b1d15" font-family="Georgia, serif" font-size="51" font-weight="400" font-style="italic">rooted in tradition.</text>
+    <text x="48" y="301" fill="#765d49" font-family="Arial, sans-serif" font-size="9">A seasonal menu shaped by fire, patience, and the finest local produce.</text>
+    <rect x="48" y="325" width="123" height="38" rx="19" fill="#2b1d15"/>
+    <text x="109" y="348" text-anchor="middle" fill="#fff8ee" font-family="Arial, sans-serif" font-size="8">Explore the menu</text>
+    <circle cx="194" cy="344" r="17" fill="none" stroke="#c5a98b"/>
+    <path d="M188 344h12M195 339l5 5-5 5" fill="none" stroke="#6b4a33" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- شارة على الصورة -->
+    <g transform="translate(758 405)">
+      <rect x="-70" y="0" width="140" height="44" rx="12" fill="#2b1d15" fill-opacity="0.92"/>
+      <text x="0" y="18" text-anchor="middle" fill="#f3d4b0" font-family="Arial, sans-serif" font-size="7" letter-spacing="1.5">CHEF’S TASTING</text>
+      <text x="0" y="33" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="11">Seven courses · $95</text>
+    </g>
+
+    <!-- قائمة الطعام -->
+    <path d="M48 493h904" stroke="#e4d2bd"/>
+    <text x="48" y="529" fill="#2b1d15" font-family="Georgia, serif" font-size="17">From the kitchen</text>
+    <text x="952" y="529" text-anchor="end" fill="#9a7a60" font-family="Arial, sans-serif" font-size="8">Full menu →</text>
+
+    <!-- طبق 1 -->
+    <g transform="translate(48 549)">
+      <rect width="286" height="117" rx="11" fill="#f1e3d0"/>
+      <circle cx="67" cy="58.5" r="37" fill="#e3c8a7"/>
+      <circle cx="67" cy="58.5" r="26" fill="#d29a63"/>
+      <path d="M54 59c3-8 11-13 20-12 8 1 14 7 15 14-10 6-24 5-35-2Z" fill="#8a5a33"/>
+      <text x="120" y="48" fill="#2b1d15" font-family="Georgia, serif" font-size="13">Charred octopus</text>
+      <text x="120" y="66" fill="#8c6c54" font-family="Arial, sans-serif" font-size="7">smoked potato · harissa · lemon</text>
+      <text x="120" y="91" fill="#a45f31" font-family="Arial, sans-serif" font-size="8">$28</text>
+    </g>
+
+    <!-- طبق 2 -->
+    <g transform="translate(354 549)">
+      <rect width="286" height="117" rx="11" fill="#eee4d5"/>
+      <circle cx="67" cy="58.5" r="37" fill="#dcc9ad"/>
+      <circle cx="67" cy="58.5" r="26" fill="#a3a86c"/>
+      <path d="M52 63c5-13 14-20 26-17 10 2 16 10 16 20-14 7-29 5-42-3Z" fill="#6f8248"/>
+      <text x="120" y="48" fill="#2b1d15" font-family="Georgia, serif" font-size="13">Garden risotto</text>
+      <text x="120" y="66" fill="#8c6c54" font-family="Arial, sans-serif" font-size="7">wild herbs · aged parmesan · truffle</text>
+      <text x="120" y="91" fill="#a45f31" font-family="Arial, sans-serif" font-size="8">$24</text>
+    </g>
+
+    <!-- طبق 3 -->
+    <g transform="translate(660 549)">
+      <rect width="292" height="117" rx="11" fill="#f2e1ce"/>
+      <circle cx="67" cy="58.5" r="37" fill="#e7c7a6"/>
+      <circle cx="67" cy="58.5" r="26" fill="#c47b4a"/>
+      <path d="M52 60c2-10 10-17 20-18 11-1 20 7 22 17-13 9-29 10-42 1Z" fill="#8f3f2a"/>
+      <circle cx="61" cy="50" r="4" fill="#f3d4b0"/>
+      <text x="120" y="48" fill="#2b1d15" font-family="Georgia, serif" font-size="13">Lamb &amp; embers</text>
+      <text x="120" y="66" fill="#8c6c54" font-family="Arial, sans-serif" font-size="7">charred eggplant · date glaze</text>
+      <text x="120" y="91" fill="#a45f31" font-family="Arial, sans-serif" font-size="8">$36</text>
+    </g>
+  </g>
+
+  <!-- بطاقة عائمة -->
+  <g transform="translate(920 730)">
+    <rect width="192" height="68" rx="16" fill="#f7ecdc" stroke="#e3ceb5"/>
+    <circle cx="31" cy="34" r="15" fill="#ead6bd"/>
+    <path d="M25 28h12M25 33h12M25 38h8" stroke="#8a5a33" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="55" y="30" fill="#2b1d15" font-family="Arial, sans-serif" font-size="7" fill-opacity="0.55" letter-spacing="1">OPEN TODAY</text>
+    <text x="55" y="47" fill="#2b1d15" font-family="Georgia, serif" font-size="12">5:30 pm — 11:00 pm</text>
+  </g>
+</svg>
